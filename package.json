@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon server.js"
+    "dev": "set DEBUG= && nodemon server.js",
+    "debug": "set DEBUG=engine,socket.io* && nodemon server.js"
   },
   "keywords": [],
   "author": "",
